@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#bg-home{
+    background-color: aqua;
+}
+
+
+#home{
+    margin-top: 2%;
+    padding-bottom: 4%;
+}
+
+#home h1{
+    margin-top: 4%;
+}
+
+#bg-timeline{
+    background-color: blueviolet;
+}
+
+#timeline,#quotes,#resources{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#timeline li{
+    margin: 2%;
+    font-size: 22px;
+}
+
+#quotes h1{
+    padding-bottom: 2%;
+}
+
+#resources h1{
+    padding-bottom: 2%;
+}
+
+footer{
+   padding-top: 2%;
+}

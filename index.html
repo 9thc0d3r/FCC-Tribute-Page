@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+
+
+    <title>FCC Tribute Page - Nikola Tesla</title>
+</head>
+<body id="main">
+    <div id="bg-home">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a id="hmeBtn" class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="timeBtn" class="nav-link" href="#">Timeline</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto order-0">
+                <a class="navbar-brand mx-auto" href="#">Tribute Page</a>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="quotesBtn" class="nav-link" href="#">Quotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="resourceBtn" class="nav-link" href="#">Resources</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div id="home" class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="title">
+                            <h1 class="text-center">Nikola Tesla</h1>
+                            <p class="text-center">a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="img-div" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img id="image" class="d-block w-100" src="images/young_age.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                <img id="image" class="d-block w-100" src="images/middle_age.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                <img id="image" class="d-block w-100" src="images/old_age.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <p class="text-center" id="img-caption">Young,old and research</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="bg-timeline">
+        <div id="timeline" class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div>
+                        <h1 class="text-center">Timeline</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div>
+                        <ul>
+                            <li><b>1856:</b> He was born on July 10, 1856 in the village of Smiljan, Austrian Empire, to Milutin Tesla, an orthodox priest and his wife, Djuka Mandic, an inventive homemaker who, in her spare time, created household appliances.
+                            </li>
+                            <li><b>1881:</b> He worked as a draftsman in the Central Telegraph Office in Budapest. Later he became the chief electrician in the Budapest Telephone Exchange and made significant improvements to the Central Station equipment.</li>
+                            <li><b>1882:</b> He was employed by the Continental Edison Company in France as a designer of electrical equipment. After two years, he was shifted to New York to work for Thomas Edison, helping him to redesign the direct current generators.</li>
+                            <li><b>1888:</b> He was hired by the industrialist George Westinghouse, who was impressed by his idea for the polyphase system, to develop the alternating current electric supply system. Ultimately, he won the war of currents with Edison’s DC system by demonstrating the marvels of electric appliances via alternating current.</li>
+                            <li><b>1899:</b> He moved to Colorado Springs where he established his laboratory for creating a wireless global energy transmission system. He experimented on man-made lightning for sharing information and providing free electricity throughout the world wirelessly.</li>
+                            <li><b>1900:</b> He began his work on establishing the trans-Atlantic wireless telecommunications facility in Wardenclyffe, near Shoreham, Long Island. He performed many experiments in the facility but due to shortage of funds, he was forced to sell it around the time of World War I</li>
+                            <li><b>1943:</b> He died of unknown causes on January 7 in a hotel room in the New York City. It was later confirmed from examining that he died of coronary thrombosis.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- quotes -->
+        <div id="quotes" style="background-color:darkslateblue;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <h1 class="text-center">Quotes</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">So astounding are the facts in this connection, that it would seem as though the Creator, himself had electrically designed this planet...</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">...the greatest value of my invention will result from its effect upon warfare and armaments, for by reason of its certain and unlimited destructiveness it will tend to bring about and maintain permanent peace among nations.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">Up to the age of eight years, my character was weak and vacillating. I had neither courage or strength to form a firm resolve. My feelings came in waves and surges and vibrated unceasingly between extremes. My wishes were of consuming force and like the heads of the hydra, they multiplied. I was oppressed by thoughts of pain in life and death and religious fear. I was swayed by superstitious belief and lived in constant dread of the spirit of evil, of ghosts, and ogres and other unholy monsters of the dark. Then, all at once, there came a tremendous change which altered the course of my whole existence.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">A single ray of light from a distant star falling upon the eye of a tyrant in bygone times, may have altered the course of his life, may have changed the destiny of nations, may have transformed the surface of the globe, so intricate, so inconceivably complex are the processes of nature</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- resources -->
+        <div id="resources" style="background-color:burlywood">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <h1 class="text-center">Resources</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2 class="text-center"><a href="https://teslauniverse.com/nikola-tesla">Tesla Universe</a></h1>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="text-center"><a href="https://en.wikipedia.org/wiki/Nikola_Tesla">Wikipidea</a></h1>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="text-center"><a href="https://www.biography.com/people/nikola-tesla-9504443">Biography</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>"Made By <b>Dilip</b>"</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+    <script>
+        $("#timeBtn").click(function() {
+        $('html,body').animate({
+        scrollTop: $("#timeline").offset().top},
+        'slow');
+        });
+
+        $("#quotesBtn").click(function() {
+        $('html,body').animate({
+        scrollTop: $("#quotes").offset().top},
+        'slow');
+        });
+
+        $("#resourceBtn").click(function() {
+        $('html,body').animate({
+        scrollTop: $("#resources").offset().top},
+        'slow');
+        });
+
+        $("#hmeBtn").click(function() {
+        $('html,body').animate({
+        scrollTop: $("#bg-home").offset().top},
+        'slow');
+        });
+    </script>
+</body>
+</html>
